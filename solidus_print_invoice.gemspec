@@ -17,10 +17,6 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.authors      = 'Spree & Solidus Community'
 
-  s.add_dependency 'prawn', '1.0.0'
-  s.add_dependency "solidus_support"
-  s.add_dependency 'deface'
-
   s.add_development_dependency 'rspec-rails', '~> 3.4'
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'capybara-screenshot'
